@@ -11,8 +11,8 @@ try {
     echo "Koneksi ke database gagal: " . $e->getMessage();
 }
 
-$username = "nuraini";
-$password = "Allnet@2024!";
+$username = "admin";
+$password = "admin";
 
 $password_hashed = password_hash($password, PASSWORD_DEFAULT);
 
